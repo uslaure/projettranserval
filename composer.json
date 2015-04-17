@@ -1,51 +1,26 @@
-/*{
-	"name":"Awh",
-	"Description":"Awh",
-	"autoload":{
-		"psr-0": {"": [
-		"src/"
-	]}
-},
-
-    "minimum-stability": "dev",
-    "require": {
-        "silex/silex": "1.0.*"
+{
+  "name": "ProjectName",
+  "description": "...",
+  "autoload": {
+    "psr-0": {
+      "": [
+        "src/"
+      ]
     }
-}*/
-
-{
-"name": "ProjectName",
-"description": "...",
-"autoload": {
-"psr-0": {"": [
-"src/"
-]}
-},
-"require": {
-"doctrine/dbal": "<2.5",
-"symfony/yaml": "2.6.*",
-"components/jquery": "2.1.*",
-"twig/twig": "2.0.*@dev"
-},
-"require-dev": {
-"phpunit/phpunit": "~4.5"
-},
-"repositories": [
-
-{
-"type": "package",
-"package": {
-"version": "1.0",
-"name": "mailchimp-api-class",
-"dist": {
-"url": "http://packages.yoopies.fr/mailchimp-api-class.zip",
-"type": "zip"
-}
-}
-},
-{
-"type": "composer",
-"url": "http://packages.zendframework.com/"
-}
-]
+  },
+  "require": {
+    "doctrine/dbal": "<2.5",
+    "symfony/yaml": "2.6.*",
+    "components/jquery": "2.1.*",
+    "twig/twig": "2.0.*@dev"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.5"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://packages.zendframework.com/"
+    }
+  ]
 }
